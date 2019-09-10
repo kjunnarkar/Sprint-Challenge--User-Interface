@@ -39,16 +39,21 @@ header img {
     margin-right: 20px;
 }
 
-header .navclass {
+.navclass {
     display: flex;
-}
-
-header .navclass a {
     justify-content: space-evenly;
-    margin: 0px 35px 0px 35px;
+    /*margin: 0px 35px 0px 35px;*/
     text-decoration: none;
     color:black;
 }
+
+/*nav {
+    display: flex;
+    justify-content: space-evenly;
+    /*margin: 0px 35px 0px 35px;
+    text-decoration: none;
+    color:black;
+}*/
 
 .top-image {
     margin: 25px 235px 25px 235px; 
