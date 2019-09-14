@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -39,24 +40,32 @@ header img {
     margin-right: 20px;
 }
 
-.navclass {
+header .navclass {
     display: flex;
+}
+
+header .navclass a {
     justify-content: space-evenly;
-    /*margin: 0px 35px 0px 35px;*/
+    margin: 0px 35px 0px 35px;
     text-decoration: none;
     color:black;
 }
 
-/*nav {
-    display: flex;
-    justify-content: space-evenly;
-    /*margin: 0px 35px 0px 35px;
-    text-decoration: none;
-    color:black;
-}*/
-
 .top-image {
-    margin: 25px 235px 25px 235px; 
+    margin: 25px 235px 25px 235px;
+}
+
+.container-about-page {
+    margin: 25px 235px 25px 235px;
+}
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 body {
@@ -135,7 +144,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /*background: black;*/
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,44 +152,8 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box.box1 {
-    background: teal;
-}
-
-.middle-content .boxes .box.box2 {
-    background: gold;
-}
-
-.middle-content .boxes .box.box3 {
-    background: cadetblue;
-}
-
-.middle-content .boxes .box.box4 {
-    background: coral;
-}
-
-.middle-content .boxes .box.box5 {
-    background: crimson;
-}
-
-.middle-content .boxes .box.box6 {
-    background: forestgreen;
-}
-
-.middle-content .boxes .box.box7 {
-    background: darkorchid;
-}
-
-.middle-content .boxes .box.box8 {
-    background: hotpink;
-}
-
-.middle-content .boxes .box.box9 {
-    background: indigo;
-}
-
-.middle-content .boxes .box.box10 {
-    background: dodgerblue;
+.middle-boxes-1 {
+    display: flex;
 }
 
 .bottom-content {
